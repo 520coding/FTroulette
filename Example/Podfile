@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FTroulette_Example' do
+  pod 'FTroulette', :path => '../'
+
+  target 'FTroulette_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
