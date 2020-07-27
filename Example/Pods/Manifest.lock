@@ -1,0 +1,16 @@
+PODS:
+  - FTroulette (0.1.0)
+
+DEPENDENCIES:
+  - FTroulette (from `../`)
+
+EXTERNAL SOURCES:
+  FTroulette:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FTroulette: 9009c3ff9abd515c5a9e5f1060acdf1580fbd004
+
+PODFILE CHECKSUM: a9fde37652a83aa6389b32c55e620c12f71da1aa
+
+COCOAPODS: 1.9.3

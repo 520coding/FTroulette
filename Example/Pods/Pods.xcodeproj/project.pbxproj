@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2792F70ADB87E30C88B22D564A06424D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8950B4069C2E669FB27AAC7A8B619E1F /* ReplaceMe.m */; };
+		2CADE97544D0F9EBBAF2D24E92CEAE28 /* Pods-FTroulette_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0529AAFE89095C63598B1634DD19ED0 /* Pods-FTroulette_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34DEE05E6586AA4D4180FFDB8049AFE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		44A5020D93D0F621910DD89EFFC256F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6616F5B73475856D5402172872C05303 /* Pods-FTroulette_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2357A14AE52CDEC914042188324C28F9 /* Pods-FTroulette_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67FC1727A0C73016EEF167A4CDA779AD /* FTroulette-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8618FEB68EFBFFCC133D3D1459DD582D /* FTroulette-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BBAD47A829A46EA99DAC574E0D1EEB0 /* Pods-FTroulette_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD8D6C58B617AA68A90150EBF203EA /* Pods-FTroulette_Example-dummy.m */; };
+		BBC69FADDEE845042C043D54CD70AEB7 /* Pods-FTroulette_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 459C5BE38AC3D5AEA66AC75F40F28601 /* Pods-FTroulette_Tests-dummy.m */; };
+		C2FB5A0BD657773062914F046DDFBB12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F084DB7290E860CDEF77EBD94407725B /* FTroulette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA56F8AC71634A6A2B7BEF0FECF4A34 /* FTroulette-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D33DA456772DDCE32B2EF5F351115E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235F99536057EE20C9F17A8782C6F0E3;
+			remoteInfo = "Pods-FTroulette_Example";
+		};
+		A193538283A6311FB5EB63C4DC0D074A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB7C8016B85C8C9CBE4DE9E07941645;
+			remoteInfo = FTroulette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C1513DC7AE0AB6B3E5868988D9B2AA /* Pods-FTroulette_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTroulette_Tests-Info.plist"; sourceTree = "<group>"; };
+		1696E0E93DBB464671ECF434237A8ADF /* Pods-FTroulette_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTroulette_Tests.modulemap"; sourceTree = "<group>"; };
+		193C014C8446E87C36DD3274ED77C61C /* Pods-FTroulette_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTroulette_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EFD8D6C58B617AA68A90150EBF203EA /* Pods-FTroulette_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTroulette_Example-dummy.m"; sourceTree = "<group>"; };
+		2357A14AE52CDEC914042188324C28F9 /* Pods-FTroulette_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTroulette_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32C6EC391E972B0A2A8768E39DE05768 /* Pods-FTroulette_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTroulette_Example-Info.plist"; sourceTree = "<group>"; };
+		39350E18E4DDB77B598246C9794D078C /* Pods_FTroulette_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTroulette_Tests.framework; path = "Pods-FTroulette_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA56F8AC71634A6A2B7BEF0FECF4A34 /* FTroulette-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTroulette-dummy.m"; sourceTree = "<group>"; };
+		459C5BE38AC3D5AEA66AC75F40F28601 /* Pods-FTroulette_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTroulette_Tests-dummy.m"; sourceTree = "<group>"; };
+		59010CB988AD4C48F3FDFE16B44A90D1 /* Pods-FTroulette_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTroulette_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6F8CBE3C5C3E4C7138D949EA6ADFDE46 /* Pods-FTroulette_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTroulette_Example.release.xcconfig"; sourceTree = "<group>"; };
+		78ACADA031814354E0AB50EBA0536FA7 /* Pods-FTroulette_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTroulette_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8618FEB68EFBFFCC133D3D1459DD582D /* FTroulette-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTroulette-umbrella.h"; sourceTree = "<group>"; };
+		8950B4069C2E669FB27AAC7A8B619E1F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FTroulette/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		94D2A4381649E91018E60E6294454376 /* Pods-FTroulette_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTroulette_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		995165B6A1468EC2F2BD3C87D0D551D2 /* FTroulette-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTroulette-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFC0CB66038A43B3C5D3D4CEDA6184F /* Pods-FTroulette_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTroulette_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B31782BE2C464E4F86C437D37510903E /* FTroulette-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTroulette-Info.plist"; sourceTree = "<group>"; };
+		B3249137015231B2672A37C02C1D5590 /* Pods-FTroulette_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTroulette_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0529AAFE89095C63598B1634DD19ED0 /* Pods-FTroulette_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTroulette_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C930A7EE12A2624385C9B02E910D5EA5 /* FTroulette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTroulette.framework; path = FTroulette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C942EAD3434829FBBF49FD7AEABB21A7 /* Pods-FTroulette_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FTroulette_Example.modulemap"; sourceTree = "<group>"; };
+		CFFDA932E9DEE447CA467E133217A211 /* FTroulette.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FTroulette.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D39024A76B1964D940D87BDAA810F4A5 /* Pods-FTroulette_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTroulette_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4EDE0E28AA495B02497A8B848782E54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D7EA347B92ECD512C6C7218793281F78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E56E030162C1E7E564C4309F53988EBA /* FTroulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTroulette.release.xcconfig; sourceTree = "<group>"; };
+		E71580C36ED600B90806CC4B49FC1212 /* FTroulette.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FTroulette.modulemap; sourceTree = "<group>"; };
+		F028C9717AB10AE80468B8C75E493EE8 /* FTroulette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTroulette.debug.xcconfig; sourceTree = "<group>"; };
+		F98D61B46C45C25E420551CA459FC2A8 /* Pods_FTroulette_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTroulette_Example.framework; path = "Pods-FTroulette_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE735F23EEB263580266C8BA3094253 /* Pods-FTroulette_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTroulette_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D176CD139889FB3B79693F3F723BE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DEE05E6586AA4D4180FFDB8049AFE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0FAD2BA6B33E595DF88EAE6C7FD631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FB5A0BD657773062914F046DDFBB12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DEDA6DA07E2CD4DB1C7E8466F26381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A5020D93D0F621910DD89EFFC256F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D732F261A2F694511061C8B5C6FA7A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B0D56166572D3AD202D72D277D5EEF /* FTroulette */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		45431DF609E52EAD9C0C397E3DAB0959 /* Pods-FTroulette_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C942EAD3434829FBBF49FD7AEABB21A7 /* Pods-FTroulette_Example.modulemap */,
+				9EFC0CB66038A43B3C5D3D4CEDA6184F /* Pods-FTroulette_Example-acknowledgements.markdown */,
+				B3249137015231B2672A37C02C1D5590 /* Pods-FTroulette_Example-acknowledgements.plist */,
+				1EFD8D6C58B617AA68A90150EBF203EA /* Pods-FTroulette_Example-dummy.m */,
+				59010CB988AD4C48F3FDFE16B44A90D1 /* Pods-FTroulette_Example-frameworks.sh */,
+				32C6EC391E972B0A2A8768E39DE05768 /* Pods-FTroulette_Example-Info.plist */,
+				2357A14AE52CDEC914042188324C28F9 /* Pods-FTroulette_Example-umbrella.h */,
+				78ACADA031814354E0AB50EBA0536FA7 /* Pods-FTroulette_Example.debug.xcconfig */,
+				6F8CBE3C5C3E4C7138D949EA6ADFDE46 /* Pods-FTroulette_Example.release.xcconfig */,
+			);
+			name = "Pods-FTroulette_Example";
+			path = "Target Support Files/Pods-FTroulette_Example";
+			sourceTree = "<group>";
+		};
+		5E722C3F766DB7E6C8EB084CEDDA3428 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CFFDA932E9DEE447CA467E133217A211 /* FTroulette.podspec */,
+				D4EDE0E28AA495B02497A8B848782E54 /* LICENSE */,
+				D7EA347B92ECD512C6C7218793281F78 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6E95EDE46060EF27A2B184EB54D18A35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E71580C36ED600B90806CC4B49FC1212 /* FTroulette.modulemap */,
+				3CA56F8AC71634A6A2B7BEF0FECF4A34 /* FTroulette-dummy.m */,
+				B31782BE2C464E4F86C437D37510903E /* FTroulette-Info.plist */,
+				995165B6A1468EC2F2BD3C87D0D551D2 /* FTroulette-prefix.pch */,
+				8618FEB68EFBFFCC133D3D1459DD582D /* FTroulette-umbrella.h */,
+				F028C9717AB10AE80468B8C75E493EE8 /* FTroulette.debug.xcconfig */,
+				E56E030162C1E7E564C4309F53988EBA /* FTroulette.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FTroulette";
+			sourceTree = "<group>";
+		};
+		A98DE2386C2B0989D708989DDA6F5C89 /* Pods-FTroulette_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1696E0E93DBB464671ECF434237A8ADF /* Pods-FTroulette_Tests.modulemap */,
+				193C014C8446E87C36DD3274ED77C61C /* Pods-FTroulette_Tests-acknowledgements.markdown */,
+				D39024A76B1964D940D87BDAA810F4A5 /* Pods-FTroulette_Tests-acknowledgements.plist */,
+				459C5BE38AC3D5AEA66AC75F40F28601 /* Pods-FTroulette_Tests-dummy.m */,
+				15C1513DC7AE0AB6B3E5868988D9B2AA /* Pods-FTroulette_Tests-Info.plist */,
+				C0529AAFE89095C63598B1634DD19ED0 /* Pods-FTroulette_Tests-umbrella.h */,
+				94D2A4381649E91018E60E6294454376 /* Pods-FTroulette_Tests.debug.xcconfig */,
+				FEE735F23EEB263580266C8BA3094253 /* Pods-FTroulette_Tests.release.xcconfig */,
+			);
+			name = "Pods-FTroulette_Tests";
+			path = "Target Support Files/Pods-FTroulette_Tests";
+			sourceTree = "<group>";
+		};
+		BDCB22695580803775824DF6E0051B95 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45431DF609E52EAD9C0C397E3DAB0959 /* Pods-FTroulette_Example */,
+				A98DE2386C2B0989D708989DDA6F5C89 /* Pods-FTroulette_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				12D732F261A2F694511061C8B5C6FA7A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D655E6653805F5580E25EDFD6A8AB954 /* Products */,
+				BDCB22695580803775824DF6E0051B95 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D655E6653805F5580E25EDFD6A8AB954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C930A7EE12A2624385C9B02E910D5EA5 /* FTroulette.framework */,
+				F98D61B46C45C25E420551CA459FC2A8 /* Pods_FTroulette_Example.framework */,
+				39350E18E4DDB77B598246C9794D078C /* Pods_FTroulette_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B0D56166572D3AD202D72D277D5EEF /* FTroulette */ = {
+			isa = PBXGroup;
+			children = (
+				8950B4069C2E669FB27AAC7A8B619E1F /* ReplaceMe.m */,
+				5E722C3F766DB7E6C8EB084CEDDA3428 /* Pod */,
+				6E95EDE46060EF27A2B184EB54D18A35 /* Support Files */,
+			);
+			name = FTroulette;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AB89B4938218592FE2A85C55BCF93AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6616F5B73475856D5402172872C05303 /* Pods-FTroulette_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DBF6FAA9D253A83EA518F51BF662A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CADE97544D0F9EBBAF2D24E92CEAE28 /* Pods-FTroulette_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6A30116E8286B70DB80F27EFFF894B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FC1727A0C73016EEF167A4CDA779AD /* FTroulette-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		235F99536057EE20C9F17A8782C6F0E3 /* Pods-FTroulette_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6602657BCA1305D4339939C7C59BA72C /* Build configuration list for PBXNativeTarget "Pods-FTroulette_Example" */;
+			buildPhases = (
+				0AB89B4938218592FE2A85C55BCF93AF /* Headers */,
+				CD21CC0D2DD6D18C0A8FBA24A1BB9241 /* Sources */,
+				A4DEDA6DA07E2CD4DB1C7E8466F26381 /* Frameworks */,
+				F01D869CD551FC7F1CD2A3CFDDF17253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EE08AB7B4423DFADF030F4A555E83DA /* PBXTargetDependency */,
+			);
+			name = "Pods-FTroulette_Example";
+			productName = "Pods-FTroulette_Example";
+			productReference = F98D61B46C45C25E420551CA459FC2A8 /* Pods_FTroulette_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		942BC6C023A84307222CD8AE58A98FF8 /* Pods-FTroulette_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473F2DCFB67128319002CBADEFED9408 /* Build configuration list for PBXNativeTarget "Pods-FTroulette_Tests" */;
+			buildPhases = (
+				87DBF6FAA9D253A83EA518F51BF662A5 /* Headers */,
+				8AB1DF307E743B90829B96FE2AF3EFCC /* Sources */,
+				1D176CD139889FB3B79693F3F723BE98 /* Frameworks */,
+				61DE1253C855231442CB8148E6E05566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C407934115DCA9BE713E802C36C2213E /* PBXTargetDependency */,
+			);
+			name = "Pods-FTroulette_Tests";
+			productName = "Pods-FTroulette_Tests";
+			productReference = 39350E18E4DDB77B598246C9794D078C /* Pods_FTroulette_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCB7C8016B85C8C9CBE4DE9E07941645 /* FTroulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C7C8B190C2EA2F065BB4D5BE673FAC /* Build configuration list for PBXNativeTarget "FTroulette" */;
+			buildPhases = (
+				DE6A30116E8286B70DB80F27EFFF894B /* Headers */,
+				F2FEB661E8D382892C2851677499D7DB /* Sources */,
+				2A0FAD2BA6B33E595DF88EAE6C7FD631 /* Frameworks */,
+				ACBECA841AFF9F3E3A00B81F408AA7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTroulette;
+			productName = FTroulette;
+			productReference = C930A7EE12A2624385C9B02E910D5EA5 /* FTroulette.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D655E6653805F5580E25EDFD6A8AB954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB7C8016B85C8C9CBE4DE9E07941645 /* FTroulette */,
+				235F99536057EE20C9F17A8782C6F0E3 /* Pods-FTroulette_Example */,
+				942BC6C023A84307222CD8AE58A98FF8 /* Pods-FTroulette_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61DE1253C855231442CB8148E6E05566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBECA841AFF9F3E3A00B81F408AA7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01D869CD551FC7F1CD2A3CFDDF17253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB1DF307E743B90829B96FE2AF3EFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC69FADDEE845042C043D54CD70AEB7 /* Pods-FTroulette_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD21CC0D2DD6D18C0A8FBA24A1BB9241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBAD47A829A46EA99DAC574E0D1EEB0 /* Pods-FTroulette_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FEB661E8D382892C2851677499D7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F084DB7290E860CDEF77EBD94407725B /* FTroulette-dummy.m in Sources */,
+				2792F70ADB87E30C88B22D564A06424D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EE08AB7B4423DFADF030F4A555E83DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTroulette;
+			target = CCB7C8016B85C8C9CBE4DE9E07941645 /* FTroulette */;
+			targetProxy = A193538283A6311FB5EB63C4DC0D074A /* PBXContainerItemProxy */;
+		};
+		C407934115DCA9BE713E802C36C2213E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FTroulette_Example";
+			target = 235F99536057EE20C9F17A8782C6F0E3 /* Pods-FTroulette_Example */;
+			targetProxy = 6D33DA456772DDCE32B2EF5F351115E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09DE3A0442D873F756DA63108E6B96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D2A4381649E91018E60E6294454376 /* Pods-FTroulette_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTroulette_Tests/Pods-FTroulette_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTroulette_Tests/Pods-FTroulette_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24E5FBA293930A48F96D2381F1A29A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8CBE3C5C3E4C7138D949EA6ADFDE46 /* Pods-FTroulette_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTroulette_Example/Pods-FTroulette_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTroulette_Example/Pods-FTroulette_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75E5C20D6E612320BC954A977962C557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56E030162C1E7E564C4309F53988EBA /* FTroulette.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FTroulette/FTroulette-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTroulette/FTroulette-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTroulette/FTroulette.modulemap";
+				PRODUCT_MODULE_NAME = FTroulette;
+				PRODUCT_NAME = FTroulette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9ECC88615AFC40430A7FEF5E2DFECF4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78ACADA031814354E0AB50EBA0536FA7 /* Pods-FTroulette_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTroulette_Example/Pods-FTroulette_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTroulette_Example/Pods-FTroulette_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6213B0AAE4DD5D71493318D863770FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE735F23EEB263580266C8BA3094253 /* Pods-FTroulette_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FTroulette_Tests/Pods-FTroulette_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTroulette_Tests/Pods-FTroulette_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB19DAD338640C6337E303D8FC84E92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F028C9717AB10AE80468B8C75E493EE8 /* FTroulette.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FTroulette/FTroulette-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTroulette/FTroulette-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTroulette/FTroulette.modulemap";
+				PRODUCT_MODULE_NAME = FTroulette;
+				PRODUCT_NAME = FTroulette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473F2DCFB67128319002CBADEFED9408 /* Build configuration list for PBXNativeTarget "Pods-FTroulette_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DE3A0442D873F756DA63108E6B96C1 /* Debug */,
+				C6213B0AAE4DD5D71493318D863770FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6602657BCA1305D4339939C7C59BA72C /* Build configuration list for PBXNativeTarget "Pods-FTroulette_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC88615AFC40430A7FEF5E2DFECF4B /* Debug */,
+				24E5FBA293930A48F96D2381F1A29A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C7C8B190C2EA2F065BB4D5BE673FAC /* Build configuration list for PBXNativeTarget "FTroulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB19DAD338640C6337E303D8FC84E92A /* Debug */,
+				75E5C20D6E612320BC954A977962C557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_FTroulette_Tests {
+  umbrella header "Pods-FTroulette_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

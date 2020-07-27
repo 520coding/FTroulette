@@ -1,0 +1,6 @@
+framework module FTroulette {
+  umbrella header "FTroulette-umbrella.h"
+
+  export *
+  module * { export * }
+}
