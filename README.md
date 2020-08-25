@@ -24,18 +24,18 @@ pod 'FTroulette'
 
 1.以触碰点P与圆心O1为起始边，对±θ角范围内的刻度线进行偏移。角θ可根据三角形O1O2A，利用余弦定理，已知三边求角：a=r，b=R，c=R-d 代入即可求得α，即θ
 
-![Image text](https://github.com/Takemoto-xie/resource/blob/master/roulette/%E4%BD%99%E5%BC%A6%E5%AE%9A%E7%90%86.svg)
+![Image text](https://github.com/520coding/FTroulette/blob/master/ScreenShots/%E4%BD%99%E5%BC%A6%E5%AE%9A%E7%90%86.svg)
 
-<img src="https://github.com/Takemoto-xie/resource/blob/master/roulette/roulette1.png" width="600" height="477" /><br/>
+<img src="https://github.com/520coding/FTroulette/blob/master/ScreenShots/roulette1.png" /><br/>
 
 2.原刻度线ab，偏移后得到新刻度线a'b'，新刻度线的位置L，可根据三角形O1O2a'，利用余弦定理结合完全平方公式，已知两边和一角求第三边：∠γ=∠α-∠β，a=R-d，c=r 代入即可求得b，即L
 
-![Image text](https://github.com/Takemoto-xie/resource/blob/master/roulette/%E4%BD%99%E5%BC%A6%E5%AE%9A%E7%90%862.svg)
+![Image text](https://github.com/520coding/FTroulette/blob/master/ScreenShots/%E4%BD%99%E5%BC%A6%E5%AE%9A%E7%90%862.svg)
 
-<img src="https://github.com/Takemoto-xie/resource/blob/master/roulette/roulette2.png" width="600" height="497" /><br/>
+<img src="https://github.com/520coding/FTroulette/blob/master/ScreenShots/roulette2.png" /><br/>
 
 ## Demo
-![Image text](https://github.com/Takemoto-xie/resource/blob/master/roulette/demo.gif)
+![Image text](https://github.com/520coding/FTroulette/blob/master/ScreenShots/demo.gif)
 
 ## Author
 
